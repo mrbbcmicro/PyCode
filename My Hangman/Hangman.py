@@ -97,7 +97,7 @@ men = (
  |  
 ----------
 """)
-MAX_LIVES=len(men)+1
+MAX_LIVES=len(men)
 lives=MAX_LIVES
 word_file=open("word.dat", "rb")
 word=pickle.load(word_file)
