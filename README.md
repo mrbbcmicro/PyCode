@@ -1,7 +1,7 @@
 PyCode
 ======
 
-These files are my python code, but for big projects i will create a new repository.
+These files are my friend mcredstone's python code, but for big projects i will create a new repository.
 
 My code
 =======
