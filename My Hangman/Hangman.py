@@ -109,13 +109,15 @@ so_far=""
 guess=""
 guess=input("What is your guess?")
 used=[]
-if guess in word:
-    print("Yes!",guess,"is in the word!")
-    used.append(guess)
-    print("Used Letters:",used)
-else:
-    print("Sorry,",guess,"is not in the word :(.")
-    lives-=1    
-    print(men[lives])
-    used.append(guess)
-    print("Used Letters:",used)
+while so_far!=word:
+    if guess in word:
+        print("Yes!",guess,"is in the word!")
+        used.append(guess)
+        print("Used Letters:",used)
+        so_far.replace(“_”, guess)
+    else:
+        print("Sorry,",guess,"is not in the word :(.")
+        lives-=1    
+        print(men[lives])
+        used.append(guess)
+        print("Used Letters:",used)
