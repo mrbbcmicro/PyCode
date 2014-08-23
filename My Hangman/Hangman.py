@@ -1,4 +1,5 @@
 #Hangman
+import pickle
 men = (
 """
  ------
