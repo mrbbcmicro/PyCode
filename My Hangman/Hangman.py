@@ -116,6 +116,6 @@ if guess in word:
 else:
     print("Sorry,",guess,"is not in the word :(.")
     lives-=1    
-    print(men[lives+1])
+    print(men[lives])
     used.append(guess)
     print("Used Letters:",used)
